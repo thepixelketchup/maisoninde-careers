@@ -62,10 +62,10 @@
   function renderHome() {
     var d = C[loc];
     $("#facts").innerHTML = factsHTML(d);
-    $("#rolesKicker").textContent = loc === "nl" ? "Internships · Amsterdam" : "Open roles · India";
-    $("#rolesTitle").textContent = loc === "nl" ? "Choose your AMFI track" : "Find your track";
+    $("#rolesKicker").textContent = loc === "nl" ? "Step inside · Internships in Amsterdam" : "Step inside · Open roles in India";
+    $("#rolesTitle").textContent = loc === "nl" ? "Find your room in the house" : "Find your room in the house";
     $("#rolesIntro").textContent = loc === "nl"
-      ? "A great fit for students passionate about slow fashion and authentic artisanal craft."
+      ? "Internships across the AMFI tracks. A great fit for students passionate about slow fashion and authentic artisanal craft."
       : "Open to NIFT students and non-NIFT candidates. Internships, graduation projects, part-time and full-time roles.";
     $("#roleList").innerHTML = d.tracks.map(function (t) {
       return '<a class="role-row" href="#/role/' + loc + "/" + t.id + '"><div><span class="tag">' + esc(t.tag) + "</span><h3>" + esc(t.name) +
@@ -76,13 +76,15 @@
   /* ---------- 2. role detail ---------- */
   function renderRole() {
     var d = C[loc], t = track();
+    var li = function (arr) { return arr.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join(""); };
     $("#dTag").textContent = d.name + " · " + t.tag;
     $("#dTitle").textContent = t.name;
     $("#dAbout").textContent = t.about || t.line;
-    $("#dDoes").innerHTML = t.does.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("");
-    $("#dFit").textContent = t.fit;
+    $("#dDoes").innerHTML = li(t.does);
+    $("#dTraits").innerHTML = li(t.traits || [t.fit]);
     $("#dSkills").innerHTML = t.strengths.map(function (x) { return "<span>" + esc(x) + "</span>"; }).join("");
-    $("#dFacts").innerHTML = d.facts.map(function (f) { return "<dt>" + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("");
+    $("#dOffer").innerHTML = li(d.offer);
+    $("#dFacts").innerHTML = d.facts.concat(d.details || []).map(function (f) { return "<dt>" + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("");
     var href = "#/apply/" + loc + "/" + t.id;
     $("#dApply").href = href; $("#dApply2").href = href;
     document.title = t.name + " | Careers at Maison Indē";

@@ -22,6 +22,8 @@ window.CAREERS = {
       ["Compensation", "Shared at interview"], // EDIT: NL compensation
       ["Start", "Rolling · agreed with your school"],
     ],
+    details: [["Length", "3 to 6+ months"], ["Language", "English"]],
+    offer: ["Real work in a small team, on pieces that ship", "Hands-on learning in handcrafted, natural-fiber fashion", "A visit to our craft clusters in India to meet and work with the artisans", "Portfolio-ready projects and honest feedback from the team"],
     tracks: [
       {
         id: "design", name: "Fashion & Design", tag: "AMFI track",
@@ -29,6 +31,7 @@ window.CAREERS = {
         does: ["Develop collections from research to tech pack", "Work on patterns, samples and construction", "Learn hand block print and quilting from the people who do it"],
         about: "You will help turn research and craft into garments: from mood boards and tech packs to samples, learning hand block print and quilting from the artisans who practise them. A natural fit for AMFI Fashion & Design students.",
         fit: "You love silhouettes, details and how a garment is actually made.",
+        traits: ["Studying fashion design or a related AMFI programme", "Curious about craft, natural fibers and how a garment is really made", "Careful with detail and happy to learn by doing", "Comfortable working in English"],
         strengths: ["Collection development & design research", "Pattern making & sampling", "Garment construction", "Tech packs & specs", "Hand block print & craft techniques", "CLO3D / digital fashion", "Working with artisans & vendors"],
       },
       {
@@ -37,6 +40,7 @@ window.CAREERS = {
         does: ["Create prints and colourways for new collections", "Explore natural fibers, dyes and finishes", "Work alongside block and screen print artisans"],
         about: "You will explore natural fibers, dyes and traditional print methods, and develop prints and colourways for upcoming collections, working alongside block and screen print artisans.",
         fit: "You are curious about cloth, colour and traditional print.",
+        traits: ["Studying textiles, print or a related programme", "In love with colour, pattern and natural materials", "Curious about traditional print methods", "Patient, hands-on and observant"],
         strengths: ["Print & surface design", "Natural fibers & dyes", "Hand block print", "Screen print", "Colour & palette development", "Textile research", "Embroidery & embellishment"],
       },
       {
@@ -45,6 +49,7 @@ window.CAREERS = {
         does: ["Shape the story of each craft and maker", "Create photography, video and social content", "Support campaigns, lookbooks and the website"],
         about: "You will give every craft and maker a voice: photography, video, social content, copy and campaigns that carry the Maison Indē story to customers across Europe.",
         fit: "You tell stories with images and words, and care about brand.",
+        traits: ["Studying fashion branding, communication or media", "A good eye and a way with words", "Comfortable with content tools such as Photoshop, Lightroom, Canva or video editing", "Keen to tell real stories honestly"],
         strengths: ["Art direction", "Photography", "Videography & editing", "Styling", "Graphic design", "Social media content", "Copywriting & storytelling", "Website / UI design"],
       },
       {
@@ -53,7 +58,17 @@ window.CAREERS = {
         does: ["Grow online sales and wholesale partnerships", "Run growth marketing and analyse what works", "Support planning, production and operations"],
         about: "You will help a small, craft-led brand grow responsibly: online sales, wholesale partnerships, growth marketing and the planning behind every collection.",
         fit: "You like numbers and strategy and want to grow a brand with purpose.",
+        traits: ["Studying fashion management, marketing or business", "Organised, analytical and at ease with numbers", "Interested in e-commerce and how a small brand grows", "Proactive and happy to own small projects"],
         strengths: ["E-commerce & Shopify", "Performance marketing (Meta & Google Ads)", "Email marketing / CRM", "Wholesale & partnerships", "Analytics & reporting", "Operations & production planning", "Strategy & market research"],
+      },
+      {
+        id: "open", name: "Open application", tag: "Don't see your fit?",
+        line: "Tell us who you are and where you could shine",
+        about: "No track that fits perfectly? Introduce yourself. Tell us what you love and which part of the house you would like to join, and we will get in touch when a role opens.",
+        does: ["Introduce yourself and your craft", "Tell us which part of the house you would like to join", "We keep your details and reach out when something opens up"],
+        fit: "Any background: design, craft, content, business or operations.",
+        traits: ["A real interest in slow fashion and handcrafted work", "Curious, kind and keen to learn", "Any programme or background that could add something to the team"],
+        strengths: ["Design", "Textiles & print", "Photography & content", "Social media", "Sales & e-commerce", "Operations & production", "Something else"],
       },
     ],
     form: [
@@ -97,6 +112,8 @@ window.CAREERS = {
       ["Compensation", "Paid, based on role & experience"],
       ["Start", "From October 2026 · rolling"],
     ],
+    details: [["Length", "1–2 months to ongoing"], ["Language", "English"]],
+    offer: ["Paid, based on role and experience", "Work beside the artisans in Jaipur, or remotely on the digital tracks", "A small team and real responsibility from day one", "Learn how a design-led brand from Amsterdam sells to Europe", "Rolling applications, start from October 2026"],
     tracks: [
       {
         id: "design", name: "Design & Production", tag: "Jaipur preferred · remote possible",
@@ -104,6 +121,7 @@ window.CAREERS = {
         does: ["Develop collections and design research", "Sampling, patterns and garment construction", "Work with artisans and vendors in Jaipur"],
         about: "Our collections are developed and handcrafted in Jaipur. You will work on collection development, sampling and construction, close to the artisans and vendors who bring each design to life.",
         fit: "You want your designs to be actually made, by hand, in small batches.",
+        traits: ["A NIFT student or graduate (B.Des, B.FTech, M.Des, M.FTech, MFM), or from another design school", "Excited to work with artisans and vendors", "Strong on detail: patterns, specs and finishing", "In or able to relocate to Jaipur, or comfortable working remotely"],
         mode: ["On-site in Jaipur: I am already in or near Jaipur", "On-site in Jaipur: I can relocate", "Hybrid: in Jaipur for sampling and key days", "Remote"],
         strengths: ["Collection development & design research", "Pattern making & sampling", "Garment construction", "Tech packs & specs", "Print & surface design", "Hand block print, dyeing & craft techniques", "Embroidery & embellishment", "CLO3D / digital fashion", "Working with artisans & vendors"],
       },
@@ -113,6 +131,7 @@ window.CAREERS = {
         does: ["Art direct and style photoshoots", "Design lookbooks, packaging and visual identity", "Create social content and website visuals"],
         about: "You will shape how Maison Indē looks and feels: art direction and styling for shoots, lookbooks, packaging, social content and website visuals.",
         fit: "You have a strong eye and love making things look beautiful.",
+        traits: ["A student or graduate in design, fashion communication or visual arts (NIFT and non-NIFT welcome)", "A portfolio that shows your eye", "Comfortable with Adobe tools and/or a camera", "Jaipur preferred for shoots, remote possible"],
         mode: ["On-site in Jaipur", "Hybrid: in Jaipur for shoots and key days", "Remote"],
         strengths: ["Art direction", "Photography", "Videography & editing", "Styling", "Graphic design", "Branding & visual identity", "Print collateral: lookbooks, catalogues, packaging, tags", "Social media content", "Website / UI design", "Illustration"],
       },
@@ -122,7 +141,17 @@ window.CAREERS = {
         does: ["Grow our social channels and community", "Run and optimise Meta and Google Ads", "Write copy, support the website and track results"],
         about: "You will grow our reach and sales across social, Meta and Google Ads, copywriting, the website and analytics. This track is fully remote.",
         fit: "You enjoy testing, learning from numbers and writing words that sell.",
+        traits: ["A student or graduate in marketing, communication or fashion (NIFT and non-NIFT welcome)", "Curious and analytical: you like testing and learning from numbers", "Strong written English", "Comfortable working fully remotely"],
         strengths: ["Meta Ads (Facebook / Instagram)", "Google Ads", "Organic social media growth", "Copywriting", "Email marketing / CRM", "SEO", "Website & e-commerce (Shopify etc.)", "Analytics & reporting"],
+      },
+      {
+        id: "open", name: "Open application", tag: "Don't see your fit?",
+        line: "Tell us who you are and where you could shine",
+        about: "No track that fits perfectly? Introduce yourself. Tell us what you love and which part of the house you would like to join, and we will get in touch when a role opens.",
+        does: ["Introduce yourself and your craft", "Tell us which part of the house you would like to join", "We keep your details and reach out when something opens up"],
+        fit: "Any background: design, craft, content, business or operations.",
+        traits: ["A real interest in slow fashion and handcrafted work", "Curious, kind and keen to learn", "Any programme or background that could add something to the team"],
+        strengths: ["Design", "Textiles & print", "Photography & content", "Social media", "Sales & e-commerce", "Operations & production", "Something else"],
       },
     ],
     form: [
