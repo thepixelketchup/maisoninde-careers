@@ -1,0 +1,7 @@
+{
+  "name": "maisoninde-careers",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": { "dev": "vercel dev" },
+  "dependencies": { "busboy": "1.6.0", "pdf-lib": "1.17.1" }
+}

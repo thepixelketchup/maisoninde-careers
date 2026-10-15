@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Careers | Maison Indē</title>
+<meta name="description" content="Join Maison Indē, the house of India. Internships and roles in Amsterdam and India, working with artisans, natural fibers and handcrafted collections.">
+<link rel="icon" href="https://www.maisoninde.com/cdn/shop/files/favicon-512.png?width=64">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-loc="nl" data-view="home">
+
+<div class="announce">
+  <span data-loc="nl">Now hiring in Amsterdam · AMFI internships</span>
+  <span data-loc="in">Now hiring in India · Jaipur &amp; remote</span>
+</div>
+
+<header class="site">
+  <div class="bar">
+    <nav class="links" aria-label="Page">
+      <a href="#/">All roles</a>
+      <a href="https://www.maisoninde.com/pages/our-story">Our Story</a>
+    </nav>
+    <a class="logo" href="https://www.maisoninde.com" aria-label="Maison Indē"><img src="https://www.maisoninde.com/cdn/shop/files/IMG_5189_1.png?v=1784540117&width=400" alt="Maison Indē"></a>
+    <div class="loc-switch" role="group" aria-label="Hiring location">
+      <button type="button" data-set-loc="nl">Netherlands</button>
+      <button type="button" data-set-loc="in">India</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ═════════ 1. LIST ═════════ -->
+<div class="view" id="view-home">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="kicker">Careers</p>
+      <h1>Come build the house of India<span class="dot">.</span></h1>
+      <p class="lead">Maison Indē means <em>House of India</em>: a home for colour, craft, stories and the people who make them. Designed in Amsterdam, handcrafted in small batches by artisan communities in India.</p>
+      <div class="choose">
+        <p class="choose-q">Where would you like to work with us?</p>
+        <div class="choose-btns">
+          <button type="button" class="pick" data-set-loc="nl"><b>Netherlands</b><span>Internships in Amsterdam</span></button>
+          <button type="button" class="pick" data-set-loc="in"><b>India</b><span>Jaipur &amp; remote · internships to full-time</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="hero-img"><img id="heroImg" alt="Hand block printed Maison Indē dress"></div>
+  </section>
+
+  <section class="facts" aria-label="At a glance"><div class="facts-in" id="facts"></div></section>
+
+  <section class="list" id="roles">
+    <div class="sec-head">
+      <p class="kicker" id="rolesKicker">Open roles</p>
+      <h2 id="rolesTitle">Find your track</h2>
+      <p id="rolesIntro"></p>
+    </div>
+    <div class="role-list" id="roleList"></div>
+  </section>
+</div>
+
+<!-- ═════════ 2. ROLE DETAIL ═════════ -->
+<div class="view" id="view-role">
+  <section class="detail">
+    <a class="back" href="#/">← All roles</a>
+    <div class="detail-grid">
+      <div class="detail-main">
+        <p class="kicker" id="dTag"></p>
+        <h1 id="dTitle"></h1>
+        <p class="lead" id="dAbout"></p>
+
+        <h3 class="dh">What you’ll do</h3>
+        <ul class="ticks" id="dDoes"></ul>
+
+        <h3 class="dh">You might be a great fit if</h3>
+        <p id="dFit"></p>
+
+        <h3 class="dh">Skills we value</h3>
+        <div class="tags" id="dSkills"></div>
+
+        <h3 class="dh">What you’ll take away</h3>
+        <ul class="ticks">
+          <li>Portfolio-ready work from real collections and campaigns</li>
+          <li>Craft knowledge in natural fibers, hand printing and small-batch making</li>
+          <li>Direct exposure to how a design-led brand runs, end to end</li>
+          <li data-loc="nl">A visit to our craft clusters in India: hands-on time with the artisans behind every piece ✈</li>
+          <li data-loc="in">Daily time with the artisans and makers in Jaipur, or a remote role in a small international team</li>
+        </ul>
+      </div>
+      <aside class="detail-side">
+        <div class="side-card">
+          <p class="kicker">At a glance</p>
+          <dl id="dFacts"></dl>
+          <a class="btn" id="dApply" href="#/">Apply for this role</a>
+          <p class="small" style="margin:14px 0 0">Takes about 5 minutes.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="sec-head">
+      <p class="kicker">Why Maison Indē</p>
+      <h2>Slow fashion you can put your hands on.</h2>
+      <p>We are small on purpose. That means you won’t be fetching coffee. You’ll be close to the craft, close to the decisions, and close to the people who make every piece.</p>
+    </div>
+    <div class="reasons">
+      <article><span>01</span><h3>Real craft, up close</h3><p>Hand block print, screen print and hand quilting, on 100% natural fibers.</p></article>
+      <article><span>02</span><h3>Real responsibility</h3><p>A small team means your work ships. Collections and campaigns you can point to.</p></article>
+      <article><span>03</span><h3>Two homes, one team</h3><p>Design studio in Amsterdam, craft clusters in India.</p></article>
+      <article><span>04</span><h3>Made to last</h3><p>Small batches, timeless craft over fleeting trends.</p></article>
+    </div>
+  </section>
+
+  <section class="gallery" aria-label="Our collections">
+    <figure><img class="js-img" data-k="a" alt="Blue Riviera block print maxi skirt"><figcaption>Blue Riviera</figcaption></figure>
+    <figure><img class="js-img" data-k="b" alt="Anar Bagh yellow floral wrap dress"><figcaption>Anar Bagh</figcaption></figure>
+    <figure><img class="js-img" data-k="c" alt="Block print smocked midi dress detail"><figcaption>The craft in detail</figcaption></figure>
+  </section>
+
+  <section class="cta-band">
+    <h2>Ready to join the house?</h2>
+    <a class="btn" id="dApply2" href="#/">Apply for this role</a>
+  </section>
+</div>
+
+<!-- ═════════ 3. APPLY ═════════ -->
+<div class="view" id="view-apply">
+  <section class="apply">
+    <div class="apply-intro">
+      <a class="back" id="aBack" href="#/">← Back to role</a>
+      <p class="kicker" id="aKicker"></p>
+      <h2 id="aTitle">Apply</h2>
+      <p>Takes about five minutes. We read every application.</p>
+      <p class="small">Questions? <a href="mailto:hello@maisoninde.com">hello@maisoninde.com</a></p>
+    </div>
+    <div id="formWrap"><form id="appForm" novalidate></form></div>
+  </section>
+</div>
+
+</main>
+
+<footer class="site">
+  <div class="cols">
+    <div><img class="flogo" src="https://www.maisoninde.com/cdn/shop/files/IMG_5189_1.png?v=1784540117&width=400" alt="Maison Indē"><p>Designed in Amsterdam. Handcrafted in India.</p></div>
+    <div><h4>Explore</h4><ul>
+      <li><a href="https://www.maisoninde.com">Shop</a></li>
+      <li><a href="https://www.maisoninde.com/pages/our-story">Our Story</a></li>
+      <li><a href="https://www.maisoninde.com/pages/the-craft">The Craft</a></li></ul></div>
+    <div><h4>Connect</h4><ul>
+      <li><a href="https://www.instagram.com/maisoninde" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="mailto:hello@maisoninde.com">hello@maisoninde.com</a></li>
+      <li><a href="https://www.maisoninde.com/policies/privacy-policy">Privacy policy</a></li></ul></div>
+  </div>
+  <p class="copy">© 2026 Maison Indē</p>
+</footer>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
