@@ -6,7 +6,7 @@ const IMG = (f, w) => "https://www.maisoninde.com/cdn/shop/files/" + f + "?width
 
 window.CAREERS = {
   images: {
-    hero: IMG("Anar-Bagh-pink-floral-block-print-mini-dress-front.jpg", 1000),
+    hero: IMG("blue-riviera-sarong-waist-tie-floral-border-beach-coverup.jpg", 1000),
     a: IMG("blue-riviera-block-print-cotton-maxi-skirt-front-moving.jpg", 800),
     b: IMG("Anar-Bagh-yellow-floral-block-print-wrap-dress.jpg", 800),
     c: IMG("blue-riviera-block-print-smocked-midi-dress-closeup.jpg", 800),
